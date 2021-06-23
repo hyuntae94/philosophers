@@ -54,6 +54,7 @@ Description philosopher with threads and mutex
 ---
 ###### mutex?
 - https://sonny777.tistory.com/2
+- mutex는 여러명의 threads(철학자들)이 하나의 변수(포크)에 접근하는것을 막아주는 커널 객체 중 하나이다.)
 ---
 25. 각각의 철학자들 사이에 포크가 존재한다. 즉, 철학자들이 여러명이라면 각각의 철학자들 왼쪽과 오른쪽에 포크가 존재할 것이다.
 26. 철학자들의 포크중복을 피할려면 각각의 포크에 mutex를 사용하여 포크상태를 방어해야한다.
