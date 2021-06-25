@@ -56,14 +56,24 @@ Description philosopher with threads and mutex
 ---
 ###### threds?
 - https://donghoson.tistory.com/8
+- ![스레드1](https://user-images.githubusercontent.com/60500129/123378923-54558b80-d5c8-11eb-9fd6-e2eb346fff21.png)
+- ![스레드2](https://user-images.githubusercontent.com/60500129/123378941-5881a900-d5c8-11eb-953e-31c73f37b90f.png)
+
 ---
 ###### mutex?
 - https://sonny777.tistory.com/2
 - mutex는 여러명의 threads(철학자들)이 하나의 변수(포크)에 접근하는것을 막아주는 커널 객체 중 하나이다.
+- ![뮤텍스 작동방식](https://user-images.githubusercontent.com/60500129/123379122-a26a8f00-d5c8-11eb-8563-a55260caaed3.png)
 ---
 25. 각각의 철학자들 사이에 포크가 존재한다. 즉, 철학자들이 여러명이라면 각각의 철학자들 왼쪽과 오른쪽에 포크가 존재할 것이다.
 26. 철학자들의 포크중복을 피할려면 각각의 포크에 mutex를 사용하여 포크상태를 방어해야한다.
 27. 각각의 철학자들은 하나의 thread이다.
+---
+###### process?
+- ![프로세스1](https://user-images.githubusercontent.com/60500129/123379022-76e7a480-d5c8-11eb-9322-80c8fb1ea65e.png)
+- ![프로세스2](https://user-images.githubusercontent.com/60500129/123379027-78b16800-d5c8-11eb-8d0a-1b960d3f663c.png)
+- ![프로세스3](https://user-images.githubusercontent.com/60500129/123379033-7a7b2b80-d5c8-11eb-8ad1-f1e2f26444c6.png)- 
+- ![프로세스4](https://user-images.githubusercontent.com/60500129/123379042-7c44ef00-d5c8-11eb-8e43-50259d202c73.png)
 ---
 bonus
 - 모든 포크는 테이블 중앙에 있습니다.
