@@ -21,7 +21,7 @@
 11. 철학자는 잠을 다 자고 나면 생각하기 시작할 것이다.
 12. 철학자가 사망 했을 때 시뮬레이션이 종료된다.
 13. number_of_philosophers: 철학자의 수이며 포크의 수이기도 합니다.
-14. time_to_die: millisecond로 표현(1000ms == 1sec).한 철학자가 식사를 시작하지 않으면, 그가 마지막 식사를 시작하거나 시뮬레이션이 시작된지 ‘time_to_die’초 내에 그는 죽는다.
+14. time_to_die: millisecond로 표현(1000ms == 1sec).마지막 식사를 시작하고 n 밀리 초 안에 먹기 시작하지 않거나 시뮬레이션을 시작한 후 n 밀리 초 안에 먹기 시작하지 않으면 죽는다.
 15. time_to_eat: milliseconds로 표현(1000ms == 1sec). 철학자가 식사하는데 걸리는 시간. 식사하는 동안 두 개의 포크를 가지고 있어야 한다.
 16. time_to_sleep: milliseconds로 표현. 철학자가 잠자는 시간.
 17. number_of_times_each_philosopher_must_eat: argument는 option. 만약 모든 철학자들이 최소한 이 횟수만큼 식사를 했다면, 시뮬레이션은 끝난다. 만약 이 인자가 설정되지 않았다면, 철학자가 죽었을 때만 시뮬레이션이 끝난다.
