@@ -58,7 +58,6 @@ Description philosopher with threads and mutex
 - https://donghoson.tistory.com/8
 - ![스레드1](https://user-images.githubusercontent.com/60500129/123378923-54558b80-d5c8-11eb-9fd6-e2eb346fff21.png)
 - ![스레드2](https://user-images.githubusercontent.com/60500129/123378941-5881a900-d5c8-11eb-953e-31c73f37b90f.png)
-
 ---
 ###### mutex?
 - https://sonny777.tistory.com/2
