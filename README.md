@@ -68,6 +68,8 @@ Description philosopher with threads and mutex
 25. 각각의 철학자들 사이에 포크가 존재한다. 즉, 철학자들이 여러명이라면 각각의 철학자들 왼쪽과 오른쪽에 포크가 존재할 것이다.
 26. 철학자들의 포크중복을 피할려면 각각의 포크에 mutex를 사용하여 포크상태를 방어해야한다.
 27. 각각의 철학자들은 하나의 thread이다.
+- https://42kchoi.tistory.com/301
+- https://42kchoi.tistory.com/302
 ---
 ###### process?
 - ![프로세스1](https://user-images.githubusercontent.com/60500129/123379022-76e7a480-d5c8-11eb-9322-80c8fb1ea65e.png)
